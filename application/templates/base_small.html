@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block body %}
+    <div class="row">
+        <div class="large-6 large-offset-3 columns" id="main-form-box">
+            <div id="main-body">
+                {% block mainbody %}
+                {% endblock %}
+            </div>
+            {% block footer %}
+            {% endblock %}
+        </div>
+    </div>
+{% endblock %}

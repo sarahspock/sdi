@@ -1,0 +1,21 @@
+{% extends "base_small.html" %}
+{% block title %}Rainmaker MDM - Login{% endblock %}
+{% block smallbody %}
+    <div id="login-header"></div>
+    <div id="login-form">
+        <div class="text-box" id="username">
+            <input type="text" placeholder="username">
+            <a href="#">Forget Username?</a>
+        </div>
+        <div class="text-box" id="password">
+            <input type="text" placeholder="password">
+            <a href="#">Forget Password?</a>
+        </div>
+        <a class="large-cta" id="login-button" href="/properties/pager/1/20">Login</a>
+    </div>
+{% endblock %}
+{% block footer %}
+    <div id="bottom-bar">
+        <a href="#" class="feedback">Feedback</a>
+    </div>
+{% endblock %}
